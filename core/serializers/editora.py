@@ -1,9 +1,8 @@
 from rest_framework.serializers import ModelSerializer
 
-from core.models import User
+from core.models import Editora
 
-
-class UserSerializer(ModelSerializer):
+class EditoraSerializer(ModelSerializer):
     class Meta:
-        model = User
+        model = Editora
         fields = '__all__'
